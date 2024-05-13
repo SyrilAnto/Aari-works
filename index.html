@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aari Arts Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to RM Aari Arts Gallery</h1>
+    </header>
+<div class="background">
+
+</div>
+    <div class="gallery" id="gallery">
+    <div class="art">
+            <img src="image1.jpg" alt="Artwork 1">
+            <p class="cost">Rs.100</p>
+        </div>
+        <div class="art">
+            <img src="image2.jpg" alt="Artwork 2">
+            <p class="cost">Rs.150</p>
+        </div>
+<div class="art">
+            <img src="image3.jpg" alt="Artwork 2">
+            <p class="cost">Rs.150</p>
+        </div>
+<div class="art">
+            <img src="image4.jpg" alt="Artwork 2">
+            <p class="cost">Rs.150</p>
+        </div>
+
+        <!-- Arts will be dynamically added here -->
+    </div>
+    <div class="art-menu">
+        <input type="file" accept="image/*" id="art-image">
+        <input type="text" placeholder="Art Name" id="art-name">
+        <input type="text" placeholder="Cost" id="art-cost">
+        <button onclick="addArt()">Add Art</button>
+    </div>
+<footer>
+    <p>&copy; 2024 Aari works. All rights reserved.</p>
+  </footer>
+    <script src="script.js"></script>
+</body>
+</html>
